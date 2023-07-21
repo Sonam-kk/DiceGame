@@ -1,0 +1,40 @@
+
+*{
+    margin: 2px;
+}
+    body{
+    background-color: rgb(238, 234, 234);
+    text-align: center;
+    background-image: url(background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_dice{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(165, 163, 163);
+    border-radius: 20px;
+}
+.player1{
+    color: rgb(240, 234, 234);
+}
+.player2{
+    color: rgb(240, 234, 234);
+}
+.raw{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 200px 200px 200px; 
+}
+.head{
+    font-size: 50px;
+    color: rgb(240, 234, 234);
+}
+.start{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(165, 163, 163);
+
+}
